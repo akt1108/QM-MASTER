@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+@media all and (min-width: 1024px){
+    html{
+        font-size: 1.2rem;
+    }    
+}
+
+h1 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.unit {
+    margin: 1.8rem;
+}
+
+.answer{
+    font-weight: bold;
+    color: red;
+}
+
+.wrong{
+    color: gray;
+}
+
+.correct{
+    font-weight: bold;
+    color: green;
+}
+
+.question{
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}

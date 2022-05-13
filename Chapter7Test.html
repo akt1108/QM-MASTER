@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title>QM MASTER</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script type="text/javascript" src="qna7.js"></script>
+        <script type="text/javascript" src="qna.js"></script>
+    </head>
+
+    <body>
+        <div class="text-lg font-sans">
+            <h1 class="grid grid-rows-2 grid-flow-col py-2 text-3xl font-bold text-center border-b-8 border-indigo-600">
+                <div class="row-span-2"></div>
+                <div class="row-span-2 col-span-3"><a href="index.html">QM MASTER</a></div>
+                <div></div>
+                <div class="text-sm text-gray-500">Chap.7</div>    
+            </h1>
+            <script>
+                num=getRandomInt(0, question.length-1);
+                displayQuestion(num);
+                marking(num);
+            </script>
+            <div class="text-center"><button onclick="window.location='Chapter7Test.html';" class="text-gray-600 px-4 py-2 rounded-full bg-sky-300 hover:bg-sky-500">Next Question</button></div>
+        </div>
+    </body>
+</html>
